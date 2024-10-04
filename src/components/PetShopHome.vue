@@ -160,7 +160,6 @@ main {
 }
 
 h2 {
-  color: #ffffff; /* Alterado para branco */
   text-align: center;
   margin-bottom: 2rem;
   font-size: 2rem;
