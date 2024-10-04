@@ -87,7 +87,7 @@ export default {
 
 .swiper {
   width: 100%;
-  height: 450px;
+  height: 450px; /* Altura padrão para telas grandes */
 }
 
 .swiper-slide {
@@ -102,7 +102,8 @@ export default {
 
 .swiper-slide img {
   width: 100%;
-  height: 100%;
+  height: auto; /* Ajuste de altura automática */
+  max-height: 100%; /* Limita a altura da imagem */
 }
 
 .slide-content {
@@ -113,5 +114,28 @@ export default {
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   width: 80%;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .swiper {
+    height: 300px; /* Reduz a altura em telas menores */
+  }
+
+  .slide-content {
+    bottom: 10px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .swiper {
+    height: 200px; /* Altura menor para dispositivos pequenos */
+  }
+
+  .slide-content {
+    bottom: 5px;
+    font-size: 0.9rem; /* Ajusta o tamanho do texto */
+  }
 }
 </style>
