@@ -25,7 +25,6 @@
       </section>
       <section id="contato" class="contatos">
         <!-- Adicionado id="contato" -->
-        <h2>Contato</h2>
         <div class="contato-info">
           <p>Telefone: (21) 9999-9999</p>
           <p>E-mail: contato@petchatflow.com</p>
