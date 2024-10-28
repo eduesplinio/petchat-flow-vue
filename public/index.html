@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="pt-BR">
 
 <head>
   <meta charset="utf-8">
@@ -7,20 +7,24 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link rel="icon" href="<%= BASE_URL %>favicon.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-  <title>
-    PetChatFlow
-  </title>
+  <title>PetChatFlow</title>
 </head>
 
 <body style="width: 100%; height: 100%;">
   <div id="app"></div>
-  <script src="https://cdn.jsdelivr.net/gh/logspace-ai/langflow-embedded-chat@v1.0.6/dist/build/static/js/bundle.min.js""></script>
+  <script src="https://cdn.jsdelivr.net/gh/logspace-ai/langflow-embedded-chat@v1.0.6/dist/build/static/js/bundle.min.js"></script>
 
   <langflow-chat
-    window_title=" PetChatFlow" flow_id="09fc4a08-c1e0-48f0-8ce2-41436d8e8e80" host_url="http://localhost:7860"
-    host_url="http://localhost:7860" color=green; style="position: absolute; bottom: 50px; right: 50px;"
-    chat_position=top-left>></langflow-chat>
-
+    window_title="Dory Chat 🐟" flow_id="29978ec9-c778-480b-bcdb-0cd5eaf5a71e" host_url="http://localhost:7860"
+    color="blue" style="position: fixed; bottom: 20px; right: 20px;"
+    chat_position="top-left"
+    height="500px"
+    width="350px"
+    chat_input_field="text"
+    placeholder="Diga o que precisa..."
+    placeholder_sending="Buscando a resposta..."
+    online_message="Oi, eu sou a Dory! Precisa de ajuda? Espere, eu falei isso antes?">
+  </langflow-chat>
 </body>
 
 </html>
