@@ -87,7 +87,7 @@ export default {
 
 .swiper {
   width: 100%;
-  height: 450px; /* Altura padrão para telas grandes */
+  height: 400px; /* Altura padrão para telas grandes */
 }
 
 .swiper-slide {
@@ -119,7 +119,7 @@ export default {
 /* Responsividade para telas menores */
 @media (max-width: 768px) {
   .swiper {
-    height: 300px; /* Reduz a altura em telas menores */
+    height: 0px; /* Reduz a altura em telas menores */
   }
 
   .slide-content {
@@ -130,7 +130,7 @@ export default {
 
 @media (max-width: 480px) {
   .swiper {
-    height: 200px; /* Altura menor para dispositivos pequenos */
+    height: 0; /* Altura menor para dispositivos pequenos */
   }
 
   .slide-content {
