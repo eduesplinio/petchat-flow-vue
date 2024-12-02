@@ -12,7 +12,7 @@ Esta documentação fornece uma visão completa do desenvolvimento do [**PetChat
 * **Ferramentas Utilizadas**: Apresenta as principais tecnologias integradas, como Langflow, DataStax, Railway e Vercel, e explica como cada uma contribuiu para o sucesso do projeto.
 * **Resultados dos Testes**: Fornece uma análise detalhada dos testes realizados.
 
-<figure><img src=".gitbook/assets/Captura de Tela 2024-12-02 às 5.57.18 PM.png" alt=""><figcaption><p><a href="https://petflow-chat-front-49yb.vercel.app/">https://petflow-chat-front-49yb.vercel.app/</a></p></figcaption></figure>
+<figure><img src=".gitbook/assets/Captura de Tela 2024-12-02 às 5.57.18 PM.png" alt=""><figcaption></figcaption></figure>
 
 
 
