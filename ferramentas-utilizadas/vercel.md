@@ -1,10 +1,6 @@
 ---
-cover: broken-reference
-coverY: 0
+description: Introdução ao Uso da Vercel no PetChatFlow
 layout:
-  cover:
-    visible: true
-    size: hero
   title:
     visible: true
   description:
@@ -18,6 +14,11 @@ layout:
 ---
 
 # Vercel
+
+Para disponibilizar o site do PetChatFlow em produção, utilizamos a [Vercel](https://vercel.com/), uma plataforma especializada em hospedagem e implantação de frontends modernos.
+
+Com a Vercel, conseguimos colocar o site do PetChatFlow em produção rapidamente, proporcionando uma experiência fluida e responsiva aos usuários.\
+
 
 {% embed url="https://petflow-chat-front-49yb.vercel.app/" %}
 
