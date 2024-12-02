@@ -5,4 +5,7 @@ description: Resultados da pesquisa sobre a usabilidade do ChatBot do PetChatFlo
 
 # Resultados dos Testes
 
-{% embed url="https://docs.google.com/forms/d/e/1FAIpQLSdwCGBMZOk0FPk-rtO2gR5RrYiaiD723lrC_pXWov540mDaqg/viewform" %}
+{% file src=".gitbook/assets/Sua opinião sobre o PetChatFlow.pdf" %}
+
+{% embed url="https://docs.google.com/spreadsheets/d/1nVDePiPbzjb_LHNVFhDfHBYv9ZRSpgsmFLwJSDSVgm4/edit?usp=sharing" %}
+
